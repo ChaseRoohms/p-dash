@@ -274,7 +274,6 @@ def run(ip_address, max_port, thread_count):
 
 
 # ==================================================== Main Program ===================================================
-print_lock = threading.Lock()
 q = Queue()
 
 target, port_limit, thread_limit = get_args()
